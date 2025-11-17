@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { LoginForm } from "../components/ui/AuthForm";
+import React from "react";
+import { LoginForm } from "../components/AuthForm";
 
 const LoginPage = () => {
-    return (
-        <>
-            <h1>Вход</h1>
-            <LoginForm />
-        </>
-    );
+  return (
+    <>
+      <h1>Вход</h1>
+      <LoginForm />
+    </>
+  );
 };
 
 export default LoginPage;
