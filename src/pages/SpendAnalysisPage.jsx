@@ -719,5 +719,4 @@ const SpendAnalysisPage = () => {
     </>
   );
 };
-
 export default SpendAnalysisPage;
